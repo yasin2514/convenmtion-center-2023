@@ -25,3 +25,7 @@ ul {
 .start-75{
     margin-left: 75%;
 }
+.custom-toast{
+    border-image: linear-gradient(rgb(102, 125, 252),blue)3;
+    border-left: 10px solid;
+}

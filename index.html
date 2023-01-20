@@ -111,7 +111,7 @@
                 <div class="col-12 col-md-5">
                     <img src="./images/wedding.png" class="img-fluid" alt="">
                 </div>
-                <div class="col-12 col-md-7">
+                <div class="col-12 col-md-7 position-relative">
                     <h1 class="text-dark">Every moment is Precious</h1>
                     <p class="text-secondary">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
                         Velit officia consequat
@@ -119,6 +119,20 @@
                     <button class="btn btn-primary rounded-0" data-bs-toggle="modal"
                         data-bs-target="#exampleModal">Explore our album <i
                             class="fa-solid fa-arrow-right"></i></button>
+                    <!-- toast -->
+
+                    <div class="position-absolute top-50 end-0 custom-toast">
+                        <div class="toast border align-items-center show" role="alert" aria-live="assertive" aria-atomic="true" >
+                            <div class="d-flex">
+                                <div class="toast-body">
+                                   <p class="fw-medium"><i class="fa-solid fa-gift text-primary fa-2x me-2"></i> 20% off on next booking</p>
+                                </div>
+                                <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast"
+                                    aria-label="Close"></button>
+                            </div>
+                        </div>
+
+                    </div>
                     <!-- Modal -->
                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                         aria-hidden="true">
@@ -140,6 +154,7 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
