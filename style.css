@@ -19,3 +19,9 @@
 .banner-3 {
     background-image: url("./images/banner-3.jpg"),linear-gradient(rgb(102, 100, 100),rgb(29, 29, 29));
 }
+ul {
+    padding-left: 0;
+}
+.start-75{
+    margin-left: 75%;
+}
